@@ -1,0 +1,63 @@
+.player-card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .player-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .player-image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .player-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #ddd;
+  }
+  
+  .player-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .player-name {
+    font-size: 1.8em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .player-position {
+    font-size: 1.2em;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .player-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .stat {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .stat-icon {
+    margin-right: 10px;
+    color: #ff6f61;
+    font-size: 1.5em;
+  }
+  

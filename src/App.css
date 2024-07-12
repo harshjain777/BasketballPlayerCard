@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .player-card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .player-name {
+    font-size: 1.4em;
+  }
+
+  .player-position {
+    font-size: 1em;
+  }
+
+  .player-stats {
+    flex-direction: column;
+  }
+
+  .stat {
+    font-size: 0.9em;
+  }
+}
